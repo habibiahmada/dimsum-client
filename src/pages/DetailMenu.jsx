@@ -36,12 +36,13 @@ const DetailMenu = () => {
       <Navbar />
       <section id={menu.id} className="d-flex flex-column flex-md-row justify-content-between align-items-center" style={{ margin: 0, padding: '20px' }}>
         <div className="image-container mb-4 mb-md-0" style={{ width: "100%", maxWidth: "500px", height: "auto", overflow: "hidden",animation: "fadeInLeft 1s ease-in-out" }}>
-          <img 
-            src={`../public/MenuList/${menu.gambar}`} 
-            alt={menu.gambar} 
-            className="img-fluid" 
-            style={{ objectFit: "cover", width: "100%", height: "auto" }} 
-          />
+        <img 
+          src={`/menuList/${menu.gambar}`} 
+          alt={menu.gambar} 
+          className="img-fluid" 
+          style={{ objectFit: "cover", width: "100%", height: "auto" }} 
+        />
+
         </div>
 
         <div className="container content" style={{ width: "100%", maxWidth: "600px", animation: "fadeInRight 1s ease-in-out" }}>
