@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import { useCart } from '../components/Context';
 import addIcon from '../assets/icons/add.svg';
 import panah from '../assets/icons/panah.svg';
+import Loading from '../components/Loading';
 
 const DetailMenu = () => {
   const { id } = useParams();
@@ -28,7 +29,7 @@ const DetailMenu = () => {
   }, [id]);
 
   if (error) return <div>{error}</div>;
-  if (!menu) return <div>Loading...</div>;
+  if (!menu) return <Loading />;
 
   return (
     <>
