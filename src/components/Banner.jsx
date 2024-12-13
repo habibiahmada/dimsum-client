@@ -8,7 +8,7 @@ function Banner() {
         <div className="container pt-5 pt-xl-0 content" style={{ animation: "fadeInLeft 1s ease-in-out", width: "50%" }}>
           <h1 className="fw-semibold display-4">
             Selamat Datang di <br />
-            <span className="fw-bold text-warning"> Kedai Dimsum!</span>
+            <span className="fw-bold text-warning display-3"> Kedai Dimsum!</span>
           </h1>
           <br />
           
